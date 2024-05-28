@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form action="/YourEntity/CreateInSqlServer" method="POST">
+    <input name="Name" />
+    <button type="submit" >Sql Kaydet</button>
+</form>
+
+
+
+<form action="/YourEntity/CreateInRedis" method="POST">
+    <input name="Name" />
+    <button type="submit" >Redis Kaydet</button>
+</form>
+
+
+<form action="/YourEntity/CreateInMongoDb" method="POST">
+    <input name="Name" />
+    <button type="submit" >Mongo Kaydet</button>
+</form>
