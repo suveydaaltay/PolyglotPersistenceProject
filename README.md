@@ -10,7 +10,7 @@ Depoyu Kopyalayın
 
 bash
 Kodu kopyala
-git clone https://github.com/kullanıcıadınız/MyPolyglotPersistenceProject.git
+git clone [https://github.com/kullanıcıadınız/MyPolyglotPersistenceProject.git](https://github.com/suveydaaltay?tab=repositories)
 cd MyPolyglotPersistenceProject
 Bağlantı Dizelerini Yapılandırın
 
